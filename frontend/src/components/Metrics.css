@@ -1,0 +1,35 @@
+/* Metrics.css */
+.metrics-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .metrics-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .metrics-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .metrics-label {
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  .metrics-value {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  

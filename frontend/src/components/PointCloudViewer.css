@@ -1,0 +1,18 @@
+/* PointCloudViewer.css */
+.viewer-container {
+    height: 600px;
+    position: relative;
+  }
+  
+  .viewer-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  

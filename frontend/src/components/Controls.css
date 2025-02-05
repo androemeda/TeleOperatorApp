@@ -1,0 +1,40 @@
+/* Controls.css */
+.controls-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .controls-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .controls-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls-button-recording {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .controls-button-recording:hover {
+    background-color: #dc2626;
+  }
+  
+  .controls-button-not-recording {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .controls-button-not-recording:hover {
+    background-color: #059669;
+  }
+  
