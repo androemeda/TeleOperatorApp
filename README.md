@@ -1,14 +1,23 @@
-##Installation steps
+## Installation steps
 
 git clone
 
-cd frontend
+
+## cd frontend
+
 npm install three @react-three/fiber @react-three/drei
+
 npm install @types/three
+
 npm run dev
 
-cd backend
+
+## cd backend
+
 python -m venv venv
+
 source venv/bin/activate
+
 pip install flask flask-cors opencv-python numpy
+
 python3 server.js
