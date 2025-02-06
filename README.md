@@ -14,10 +14,10 @@ npm run dev
 
 ## cd backend
 
-python -m venv venv
+python3 -m venv venv
 
 source venv/bin/activate
 
 pip install flask flask-cors opencv-python numpy
 
-python3 server.js
+python3 server.py
